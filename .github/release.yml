@@ -1,0 +1,19 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+      - skip-changelog
+    authors:
+      - github-actions[bot]
+  categories:
+    - title: "✨ Yeni özellikler"
+      labels:
+        - feature
+        - enhancement
+    - title: "🐛 Hata düzeltmeleri"
+      labels:
+        - bug
+        - fix
+    - title: "⚙️ Diğer değişiklikler"
+      labels:
+        - "*"
